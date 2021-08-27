@@ -9,6 +9,10 @@ RSS_FEEDS = [
   {
     "source": "https://rss.nytimes.com/services/xml/rss/nyt/MostViewed.xml",
     "schedule": "* */3 * * *"
+  },
+  {
+    "source": "https://xkcd.com/rss.xml",
+    "schedule": "* * */3 * *"
   }
 ]
 
